@@ -1,5 +1,5 @@
  import java.util.Scanner;
- class Student {
+ public class Student {
     String name;
     int markForProgramming;
     int markForLogic;
@@ -26,7 +26,6 @@
         }
         return false;
     }
- public class StudentDemo{
   public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Student 1 details: ");
