@@ -3,21 +3,21 @@ public class employeeMain {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter details for employee 1: ");
-        System.out.print("Employee Name: ");
+        System.out.println("Employee Name: ");
         String empName1 = scanner.next();
-        System.out.print("Employee Number: ");
+        System.out.println("Employee Number: ");
         int empNo1 = scanner.nextInt();
-        System.out.print("Basic Salary: ");
+        System.out.println("Basic Salary: ");
         double basicSal1 = scanner.nextDouble();
 
         Employee employee1 = new Employee(empName1, empNo1, basicSal1);
         
         System.out.println("\nEnter details for employee 2: ");
-        System.out.print("Employee Name: ");
+        System.out.println("Employee Name: ");
         String empName2 = scanner.next();
-        System.out.print("Employee Number: ");
+        System.out.println("Employee Number: ");
         int empNo2 = scanner.nextInt();
-        System.out.print("Basic Salary: ");
+        System.out.println("Basic Salary: ");
         double basicSal2 = scanner.nextDouble();
 
         Employee employee2 = new Employee(empName2, empNo2, basicSal2);
