@@ -27,28 +27,27 @@
         return false;
     }
  public class StudentDemo{
-
-    public static void main(String[] args) {
+  public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Student 1 details: ");
-        System.out.print("Name: ");
+        System.out.println("Name: ");
         String name1 = sc.nextLine();
           System.out.println("Enter Student 2 details: ");
-        System.out.print("Name: ");
+        System.out.println("Name: ");
         String name2 = sc.nextLine();
-         System.out.print("Mark for Programming of "+name1+" : ");
+         System.out.println("Mark for Programming of "+name1+" : ");
         int markForProgramming1 = sc.nextInt();
-         System.out.print("Mark for Logic of "+name1+" : ");
+         System.out.println("Mark for Logic of "+name1+" : ");
         int markForLogic1 = sc.nextInt();
-          System.out.print("Grade for Lab of "+name1+" : ");
+          System.out.println("Grade for Lab of "+name1+" : ");
         char gradeForLab1 = sc.next().charAt(0);
 
       
-        System.out.print("Mark for Programming of "+name2+" : ");
+        System.out.println("Mark for Programming of "+name2+" : ");
         int markForProgramming2 = sc.nextInt();
-        System.out.print("Mark for Logic of "+name2+" : ");
+        System.out.println("Mark for Logic of "+name2+" : ");
         int markForLogic2 = sc.nextInt();
-        System.out.print("Grade for Lab "+name2+" : ");
+        System.out.println("Grade for Lab "+name2+" : ");
 
         char gradeForLab2 = sc.next().charAt(0);
 
