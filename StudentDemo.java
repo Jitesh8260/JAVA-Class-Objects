@@ -1,4 +1,15 @@
- import java.util.Scanner;
+/*Declare a variable Student which consists of a student’sname, markfor Programming, mark
+for Logic and a grade for Lab. A mark is a number (between 0 and100) and a grade is a
+letter (between A and F). Write a predicate (a boolean method) isStronger, which takes two
+students and returns true if and only if the first student has done better than the second in
+the ordering below.
+a. the Programming mark is most important,
+b. numerical order of Logic marks is the determining factor when two students have
+the same Programming mark,
+c. alphabetical order of Lab grades is the determining factor when two students have
+the same Programming and Maths marks.*/
+
+import java.util.Scanner;
  public class Student {
     String name;
     int markForProgramming;
