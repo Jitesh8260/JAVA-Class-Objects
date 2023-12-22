@@ -1,4 +1,8 @@
-//import java.util.Scanner;
+/*Write a java program deal with student information of a school. Define a class Student. The data members and methods for the class given below. 
+Data members: roll, name, paper1,paper2,paper3 and grade.
+Methods: getInfo(), calculate(), showDetails().
+
+Use methods for initialization. Display for three students.*/
 
 public class Student{
     int roll;
