@@ -1,3 +1,15 @@
+/*Develop a java program that will deal with employee information of an organization.
+Define a class Employee. Minimum number of data member and member function are as
+follows:
+Data members:empName, empNo, basicSal, da, hra, grossSal
+Methods:calGrossSal(), showEmpDetails()
+You are free to add more number of relevant data member and member function.Define
+parameterized constructor to intilaizeempName, empNo and basicSal. Create anytwo
+objects of Employee class and initialize their data members while object creation. Use the
+method calGrossSal()to calculate the gross salary and method showEmpDetails() to display
+the detail informationof the employees in a tabular manner. Note that da is 20% of basicSal
+and hra is 10% of basicSal. grossSal is the sum of basicSal, da and hra.*/ 
+
 import java.util.Scanner;
 public class employeeMain {
     public static void main(String[] args) {
