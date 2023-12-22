@@ -1,4 +1,7 @@
- public class StackDemo {
+/*Define a class Stack, which perform the basic operation of stack. Define another driver
+class to demonstrate the basic operations.*/
+
+public class StackDemo {
     public static void main(String[] args) {
         Stack stack = new Stack(5);
         stack.push(10);
