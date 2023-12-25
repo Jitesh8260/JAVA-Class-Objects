@@ -7,7 +7,7 @@ Write a method print() in the class to print out the name of the planet and all 
 For example, if we have
 String[] earth_sat = { "Moon" };
 Planet earth = new Planet("Earth", earth_sat);
-Then we want earth.print(); to print out the following:
+Then we want  earth.print(); to print out the following:
 Earth has 1 satellite(s):
 Moon.*/
 
