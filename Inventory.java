@@ -17,7 +17,7 @@ current inventory value
 objects and then produces a neatly formatted table of the store's inventory displaying
 the three items, their current inventory value, and the total inventory value for the
 store.
- Duplicate the format of the output exactly shown below. Test your output with
+ Duplicate the  format of the output exactly shown below. Test your output with
 different items in inventory. */
     
 import java.util.ArrayList;
