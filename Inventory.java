@@ -26,7 +26,7 @@ import java.util.List;
 public class Inventory {
     public static void main(String[] args) {
         List<Item> inventory = new ArrayList<>();
-        inventory.add(new Item("Laptop", 999.99, 10));
+        inventory.add(new Item("La ptop", 999.99, 10));
         inventory.add(new Item("Phone", 699.99, 20));
         inventory.add(new Item("Headphones", 149.99, 30));
 
