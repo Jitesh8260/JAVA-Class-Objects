@@ -16,7 +16,7 @@ current inventory value
  Write a separate class called Inventory with a main method that creates three Item
 objects and then produces a neatly formatted table of the store's inventory displaying
 the three items, their current inventory value, and the total inventory value for the
-store.
+store. 
  Duplicate the  format of the output exactly shown below. Test your output with
 different items in inventory. */
     
