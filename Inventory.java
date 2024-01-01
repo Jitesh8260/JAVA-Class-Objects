@@ -11,7 +11,7 @@ fields.
 current inventory value
 1. String getName( ) returns the item name
 2. double getPrice( ) returns the price of the item
-3. intgetQuantity( ) returns the number of quantities
+3. intgetQuantity( ) returns the n umber of quantities
 4. double getValue( ) that returns the current inventory value (quantity * price)
  Write a separate class called Inventory with a main method that creates three Item
 objects and then produces a neatly formatted table of the store's inventory displaying
