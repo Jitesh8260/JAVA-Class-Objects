@@ -3,7 +3,7 @@ the object, it contains two fields: one called name is a String containing its n
 called satellites is an array of String containing the names of all its satellites. Define the
 class, with a constructor taking a String and an array of String as argument for initializing
 the object.
-Write a method print() in the class to print out the name of the planet and all the satellites.
+Write a method print() in the  class to print out the name of the planet and all the satellites.
 For example, if we have
 String[] earth_sat = { "Moon" };
 Planet earth = new Planet("Earth", earth_sat);
