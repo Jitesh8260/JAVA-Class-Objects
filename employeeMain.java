@@ -10,6 +10,7 @@ method calGrossSal()to calculate the gross salary and method showEmpDetails() to
 the detail informationof the employees in a tabular manner. Note that da is 20% of basicSal
 and hra is 10% of basicSal. grossSal is the sum of basicSal, da and hra.*/ 
 
+
 import java.util.Scanner;
 public class employeeMain {
     public static void main(String[] args) {
